@@ -1,0 +1,6 @@
+- name: Instalar Java
+  hosts: all
+  become: true
+
+  roles:
+    - java_install
